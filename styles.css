@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+}
+
+footer {
+    margin: auto;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
