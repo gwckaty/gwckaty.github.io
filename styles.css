@@ -2,6 +2,10 @@ img {
     max-width: 100%;
 }
 
+.circle-image {
+    border-radius: 50%;
+}
+
 footer {
     margin: auto;
 }
