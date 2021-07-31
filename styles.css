@@ -22,3 +22,46 @@ footer li a {
 footer {
     text-align: center;
 }
+
+.header_ {
+    background-color: #283573;
+    text-align: center;
+}
+
+.header_logo {
+    padding: 10px;
+   
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-color {
+    background-color: #283573;
+}
+
+.nav-link {
+    color: #fdb6b6ee;
+}
+
+.container h1 {
+    padding: 10px;
+}
+
+.main_content {
+    padding-top: 40px;
+}
+
+.row h2 {
+    padding-top: 50px;
+}
