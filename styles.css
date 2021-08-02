@@ -16,6 +16,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #283573;
 }
 
+.lead-position {
+    font-family: 'Roboto Slab', serif;
+    color: #f36868;
+    font-size: 1.25em;
+}
+
+.officer-name {
+    font-size: 1.5em;
+}
+
 footer {
     margin: auto;
 }
