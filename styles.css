@@ -92,6 +92,9 @@ header {
     padding-top: 40px;
 }
 
+.project-section img {
+    border-radius: 20px;
+}
 .row h2 {
     padding-top: 50px;
 }
