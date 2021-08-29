@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #283573;
 }
 
+.events li div:first-of-type {
+    font-weight: 700;
+}
+
 .lead-position {
     font-family: 'Roboto Slab', serif;
     color: #f36868;
