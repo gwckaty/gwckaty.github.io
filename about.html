@@ -5,74 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - GWC Katy</title>
+    <title>GWC Katy - About</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/logo_favicon.png">
     <script src="https://kit.fontawesome.com/9360198cda.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">Girls Who Code Katy</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="resources.html">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://forms.gle/LxbE6d3LR93EbBVXA" target="_blank">Join GWC
-                            Katy!</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- sticky navbar -->
+    <div class="sticky-top border-bottom">
+        <header>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo_transparent.png" class="header-logo" alt="GWC Logo">
+            </a>
+
+            <!-- <nav class="navbar nav-light navbar-expand-lg"> -->
+            <nav class="navbar navbar-expand">
+                <div class="container-fluid">
+
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/resources">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://forms.gle/LxbE6d3LR93EbBVXA" target="_blank">Join GWC
+                                    Katy!</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+    </div>
 
     <div class="container">
         <h1>About Us</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veritatis quae quam incidunt? Cupiditate ipsam
-            numquam id libero? Deserunt nihil alias non est veritatis quaerat voluptas quo, distinctio molestias
-            architecto.
-            Recusandae harum ex quos aperiam maxime unde repellendus impedit, ipsa soluta laudantium provident commodi,
-            qui aliquid voluptas eveniet modi pariatur odio nam voluptatibus enim et dolorum corporis? Quasi, nulla
-            reiciendis?
-            Mollitia amet at, dolore porro numquam ab cum hic architecto labore. Quam soluta libero assumenda modi
-            accusantium, et ut consequuntur aspernatur eius saepe magnam, inventore iusto blanditiis expedita laudantium
-            id.
-
+            Girls Who Code Katy was founded in 2019 by Ujjaini Das and Laxmi Giri. Girls Who Code is on a mission to
+            close the gender gap in technology and to change the image of what a programmer looks like and does.
+        </p>
+        <p>
+            For information about Girls Who Code, visit their <a href="https://girlswhocode.com/">official website</a>.
         </p>
         <h2>2021 - 2022 Leadership Team</h2>
+        <div class="row justify-content-center">
+            <div class="col-4 col-md-2 my-2">
+                <img src="images/bauguss.jpg" alt="Ms. Sarah Bauguss" class="circle-image">
+            </div>
+            <div class="col-8 col-md-4 my-2">
+                <div class="lead-position">Sponsor</div>
+                <div class="officer-name">Ms. Bauguss</div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-4 col-md-2 my-2">
                 <img src="images/victoria.jpg" alt="Victoria Zhang" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Co-President</div>
-                Victoria Zhang
+                <div class="officer-name">Victoria Zhang</div>
             </div>
             <div class="col-4 col-md-2 my-2">
                 <img src="images/nicole.jpg" alt="Nicole Xu" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Co-President</div>
-                Nicole Xu
+                <div class="officer-name">Nicole Xu</div>
             </div>
         </div>
         <div class="row">
@@ -81,14 +102,14 @@
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Project Coordinator</div>
-                Emily Kim
+                <div class="officer-name">Emily Kim</div>
             </div>
             <div class="col-4 col-md-2 my-2">
                 <img src="images/meghana.jpg" alt="Meghana Kunapareddy" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Project Coordinator</div>
-                Meghana Kunapareddy
+                <div class="officer-name">Meghana Kunapareddy</div>
             </div>
         </div>
         <div class="row">
@@ -97,14 +118,14 @@
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Secretary</div>
-                Ella Li
+                <div class="officer-name">Ella Li</div>
             </div>
             <div class="col-4 col-md-2 my-2">
                 <img src="images/sanika.jpg" alt="Sanika Misra" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Secretary</div>
-                Sanika Misra
+                <div class="officer-name">Sanika Misra</div>
             </div>
         </div>
         <div class="row">
@@ -113,39 +134,39 @@
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Outreach Coordinator</div>
-                Jachika Kaur
+                <div class="officer-name">Jachika Kaur</div>
             </div>
             <div class="col-4 col-md-2 my-2">
                 <img src="images/unyime.jpg" alt="Unyime Usua" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Outreach Coordinator</div>
-                Unyime Usua
+                <div class="officer-name">Unyime Usua</div>
             </div>
         </div>
         <div class="row">
             <div class="col-4 col-md-2 my-2">
-                <img src=" images/shamiya.jpg" alt="Shamiya Lin" class="circle-image">
+                <img src="images/shamiya.jpg" alt="Shamiya Lin" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Public Relations</div>
-                Shamiya Lin
+                <div class="officer-name">Shamiya Lin</div>
             </div>
             <div class="col-4 col-md-2 my-2">
                 <img src="images/tapisar.jpg" alt="Tapisar Singh" class="circle-image">
             </div>
             <div class="col-8 col-md-4 my-2">
                 <div class="lead-position">Public Relations</div>
-                Tapisar Singh
+                <div class="officer-name">Tapisar Singh</div>
             </div>
         </div>
 
     </div>
 
     <footer>
-        <div class="container">
-            <ul>
-                <li>
+        <div class="container py-5">
+            <ul class="social-icons">
+                <li class="social-icons">
                     <a href="mailto:gwc.katy@gmail.com">
                         <i class="fas fa-envelope fa-2x"></i>
                     </a>
@@ -166,7 +187,7 @@
                     </a>
                 </li>
             </ul>
-            <p>Current Webmaster: xxxx</p>
+            <p>Current Webmaster: Ella Li</p>
         </div>
     </footer>
 

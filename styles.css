@@ -1,9 +1,53 @@
+
 img {
     max-width: 100%;
 }
 
 .circle-image {
     border-radius: 50%;
+}
+
+
+   
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255,231,248);
+    background: linear-gradient(0deg, rgba(255,231,248,1) 20%, rgba(210,244,247,1) 79%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #283573;
+}
+
+.home_pic {
+    z-index: 2;
+    width: 60%;
+   
+    
+}
+
+.home_intro {
+    background-color:rgba(255, 255, 255, 0.884);
+    padding: 3em;
+    z-index: 3;
+}
+
+.events li div:first-of-type {
+    font-weight: 700;
+}
+
+.lead-position {
+    font-family: 'Roboto Slab', serif;
+    color: #f36868;
+    font-size: 1.25em;
+}
+
+.officer-name {
+    font-size: 1.5em;
 }
 
 footer {
@@ -23,45 +67,73 @@ footer {
     text-align: center;
 }
 
-.header_ {
-    background-color: #283573;
+header {
     text-align: center;
+    background-color: #fffffff6;
 }
 
-.header_logo {
+.header-logo {
     padding: 10px;
-   
+    width: 250px;
 }
+
 .navbar-nav {
     float:none;
     margin:0 auto;
     display: block;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 .navbar-nav > li {
     display: inline-block;
     float: none;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.navbar-color {
-    background-color: #283573;
+    font-size: 1.25em;
+    padding: 0 1em;
 }
 
 .nav-link {
-    color: #fdb6b6ee;
+    color: #283573;
 }
 
+.nav-link:hover {
+    color: #5967ad;
+}
+
+.active {
+    color: #f36868;
+}
+
+.active:hover {
+    color: #f6a6a6;
+}
+
+a {
+    color:#283573;
+}
 .container h1 {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .main_content {
     padding-top: 40px;
 }
 
+.project-section img {
+    border-radius: 20px;
+}
 .row h2 {
     padding-top: 50px;
+}
+
+.social-icons a {
+    color: #293770;
+}
+
+.social-icons a:hover {
+    color: #5967ad;
+}
+
+.social-icons li {
+    padding: 0 0.5em;
 }
